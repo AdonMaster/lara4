@@ -13,8 +13,8 @@
 	@show
 	
 </head>
-<body>
-	<div id="wrapper" class="metrouicss">
+<body class="metrouicss">
+	<div id="wrapper">
 
 		<div id="header">
 			<div id="logo">
@@ -25,10 +25,9 @@
 
 		<div id="content">
 
-			<div class="message-dialog bg-color-green fg-color-white">
-                <p>Content for message dialog</p>
-            	<button class="place-right close">Click me</button>
-			</div>
+			<form action="" id="a">
+				<input type="submit" />
+			</form>
 
 		</div>
 
@@ -38,7 +37,7 @@
 	
 	@section('js')
 		{{ HTML::script('own/js/jquery-1.10.2.min.js'); }}
-		{{ HTML::script('metro-ui/javascript/dialog.js'); }}
+		{{ HTML::script('own/js/main.js'); }}
 	@show
 
 </body>
