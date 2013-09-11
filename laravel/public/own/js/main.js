@@ -34,7 +34,7 @@
 				return $('<p />');
 			}
 
-			function createButtons() {
+			function createButtonOk() {
 				var buttonOk = $('<button class="place-right" />');
 				buttonOk.click(function(e){
 
@@ -56,7 +56,7 @@
 			this.msg = function() {
 
 				var label = createLabel();
-				var button = createButtons();
+				var button = createButtonOk();
 
 				label.text(settings.msg);
 				button.text(settings.button);

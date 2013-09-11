@@ -26,7 +26,7 @@
 		<div id="content">
 
 			<form action="" id="a">
-				<input type="submit" />
+				<input type="submit" value="Ichijou"/>
 			</form>
 
 		</div>
