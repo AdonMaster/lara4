@@ -8,7 +8,6 @@
 
 	@section('css')
 		{{ HTML::style('metro-ui/css/modern.css') }}
-		{{ HTML::style('metro-ui/css/theme-dark.css') }}
 		{{ HTML::style('own/css/main.css') }}
 	@show
 	
@@ -23,12 +22,8 @@
 			</div>
 		</div>
 
-		<div id="content">
-
-			<form action="" id="a">
-				<input type="submit" value="Ichijou"/>
-			</form>
-
+		<div id="content" class="fg-color-white">
+			@yield('content')
 		</div>
 
 		<div id="footer">
